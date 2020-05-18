@@ -2,7 +2,7 @@ baseURL = "https://docs-challenge1.hwtech.club/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Ace documentation"
+title = "Static website generator"
 theme = "ace-documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
@@ -31,15 +31,15 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "More from us"
-url = "https://vantage-design.com"
+url = "https://hwtech.club"
 weight = 1
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i>"
-url = "https://github.com/vantagedesign/ace-documentation"
+url = "https://github.com/Tech-club"
 weight = 2
 
 [[menu.shortcuts]]
 name = "<button class='btn btn-success mt-n1'>Download</button>"
-url = "https://github.com/vantagedesign/ace-documentation/releases"
+url = "https://github.com/Tech-club/Challenge-1"
 weight = 3
