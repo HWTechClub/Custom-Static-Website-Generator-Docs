@@ -1,7 +1,7 @@
 +++
 title = "Commands"
 description = ""
-weight = 2
+weight = 1
 +++
 ## Single template
 At the current moment we only have one template which is a e-commerce template. Read commands refer to commands to get some information and send commands to send some
