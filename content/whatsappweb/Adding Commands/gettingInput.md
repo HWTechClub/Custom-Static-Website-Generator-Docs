@@ -8,7 +8,7 @@ To get input from a command, we need to first structure our command in a certain
 
 ### Getting a string or an int from a command
 
-Lets say, we want to add a command that lets us set the name of the product. We have defined a function in `logic.js` named `onProductName`. This is how we should handle input.
+Let us say we want to add a command that lets us set the name of the product. We have defined a function in `logic.js` named `onProductName`. This is how we should handle input.
 
 #### `messages.js`
 
