@@ -1,7 +1,7 @@
 +++
 title = "User"
 description = ""
-weight = 4
+weight = 3
 +++
 
 This class stores the user data. 

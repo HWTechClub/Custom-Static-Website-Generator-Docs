@@ -1,7 +1,7 @@
 +++
 title = "How to add Commands"
 description = ""
-weight = 2
+weight = 7
 +++
 To add a command, we make changes in the `messages.js` and `logic.js`. Firstly, in the `messages.js` we have to add a new instance of `Command` class in the `commands` array. A `Command` instance requires an object as a parameter. The parameter object has three fields. 
 

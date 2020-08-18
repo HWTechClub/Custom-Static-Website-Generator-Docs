@@ -1,7 +1,7 @@
 +++
-title = "Command Class"
-description = ""
-weight = 1
+title = "Command"
+description = "hello"
+weight = 6
 +++
 
 This defines the type for the user commands. Every `Command` is string with a callback function associated with it. We have flag variables to check  whether the command requires input or media .

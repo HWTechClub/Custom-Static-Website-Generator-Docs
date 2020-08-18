@@ -1,7 +1,7 @@
 +++
 title = "Entity"
 description = ""
-weight = 2
+weight = 1
 +++
 
 This class uses `Map` to store data in key-value pairs. It keeps track of the number of data and selected data.

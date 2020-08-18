@@ -1,7 +1,7 @@
 +++
 title = "Website"
 description = ""
-weight = 5
+weight = 4
 +++
 
 It stores all the data of a user's website and its products. 
