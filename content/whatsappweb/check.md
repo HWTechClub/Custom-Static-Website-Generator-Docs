@@ -1,7 +1,7 @@
 +++
 title = "Check"
 description = ""
-weight = 3
+weight = 8
 +++
 
 This function allows developers to avoid using repetitive if and else statement for basic checks. For example, checking if a website is selected before editing changes on the site. The check function requires two parameters in an object. 
