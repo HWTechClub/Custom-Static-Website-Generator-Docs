@@ -1,0 +1,8 @@
+
+<div class='d-flex flex-wrap'>
+    {{ range .Params}}
+    <div style="min-width: 150px; width: 33%; height: 50px;">
+        <a href="#{{ . }}" style="text-decoration: none;">{{ . }}</a>
+    </div>
+    {{end}}
+</div>
