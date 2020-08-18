@@ -1,7 +1,54 @@
-This class stores the user data. Storing the user id in the ‘id’ variable and ‘websites’ variable stores the websites of the user in instance of our entity class as key-value Pairs, Keys being the Company name and value being the instance of the Class Website storing the website info.
-Functions:
-    • addWebsite() : adds the given website object in our ‘websites entity’ with company name being the id and the given object website as the value .
-    • DeleteWebsite (): Deletes the website (VALUE) associated with given company name( KEY)
-    • getWebsite () : Returns the website associated with the given company name
-    • selectwebsite() : Selects the website associated with the given Company name by setting the selectedData variable of ‘websites’(ENTITY class object) to the website object
-    • getSelectedWebsite() : Returns the selected Website obejct.
++++
+title = "User"
+description = ""
+weight = 4
++++
+
+This class stores the user data. 
+
+{{< panel title="Properties" style="primary" >}}
+
+    {{< listItems id websites >}}
+
+{{< /panel >}}
+
+{{< panel title="Methods" style="primary" >}}
+
+    {{< listItems "addWebsite(website)" "deleteWebsite(companyName)" "getWebsite(companyName)" "selectWebsite(companyName)" "getSelectedWebsite()" >}}
+
+{{< /panel >}}
+
+### Properties
+<hr>
+
+{{< prop title="id" type="string" >}}
+
+Id of the User. The users phone number is taken as the id.
+
+{{< prop title="websites" type="Entity" >}}
+
+Stores all the websites created by the user.
+
+### Methods
+<hr>
+
+
+{{< prop title="addWebsite(website)" type="boolean" >}}
+
+Adds the website to the dataset.
+
+{{< prop title="deleteWebsite(companyName)" type="boolean" >}}
+
+Deletes the website from the dataset using the `companyName` of the website.
+
+{{< prop title="getWebsite(companyName)" type="Website" >}}
+
+Gets the website from the dataset using its companyName.
+
+{{< prop title="selectWebsite(companyName)" type="boolean" >}}
+
+Selects the webiste with the given `companyName`
+
+{{< prop title="getSelectedWebsite()" type="Website" >}}
+
+Returns the current selected website.
