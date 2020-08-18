@@ -1,15 +1,43 @@
-Class Products:
-It stores all the details of a website’s product. It stores the following details in their corresponding variables:
++++
+title = "Product"
+description = ""
+weight = 5
++++
 
-    • ID
-    • Name
-    • Description
-    • Cost
-    • Image
-    • Image URL
-It has the following functions:
-    • setID () : Sets the id variable to given id number
-    • setName (): Sets the Name variable given string.
-    • SetDesc () : Sets the description(DESC) variable to the given string
-    • SetCost() : Sets the cost variable to the given cost
-    • SetImage : Sets the image variable to the given image
+It stores all the details of a website’s product. 
+
+{{< panel title="Properties" style="primary" >}}
+
+    {{< listItems id name desc cost image imageUrl >}}
+
+{{< /panel >}}
+
+### Properties
+<hr>
+
+{{< prop title="id" type="string" >}}
+
+Id of the product
+
+{{< prop title="name" type="string" >}}
+
+Name of the product
+
+{{< prop title="desc" type="string" >}}
+
+Description of the product
+
+{{< prop title="cost" type="string" >}}
+
+Cost of the product
+
+{{< prop title="image" type="MessageMedia" >}}
+
+Image of the product.
+
+{{< prop title="imageUrl" type="string" >}}
+
+Url of the Image. Still under development.
+
+
+
